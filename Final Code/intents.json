@@ -1,0 +1,235 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "courses",
+        "Which courses do you have?",
+        "do you offers BE courses",
+        "do you offers BTech courses",
+        "What kinds of courses are there?"
+      ],
+      "responses": [
+        "BE.CSE\nBE.MECH\nBE.CIVIL\nBE.ECE\nB.Tech.IT\nB.Tech.AIDS\nB.Tech.CSBS"
+      ]
+    },
+    
+    {
+      "tag": "course list",
+      "patterns": [
+        "Do you have cse?",
+        "Do you have mech?",
+        "Do you have civil?",
+        "Do you have ece?",
+        "Do you have aids?",
+        "Do you have csbs?",
+        "Do you have Computer Science Engineering?",
+        "Do you have Electronics and Communications Engineering?",
+        "Do you have Electronics and Communications Engineering?",
+        "Do you have construction investigation various information levelling",
+        "Do you have Mechanical Engineering?",
+        "Do you have Artificial Intelligence and Data Science?",
+        "Do you have Computer Science and Business Systems?"
+      ],
+      "responses": [
+        "Yes"
+      ]
+    },
+    {
+      "tag": "transport",
+      "patterns": [
+        "does transport is having on this collage?",
+        "does bus facility available",
+        "transport",
+        "bus",
+        "bus facility available for mettupalayam",
+        "bus facility available for SATHYAMANGALAM",
+        "bus facility available for SINGANALLUR",
+        "bus facility available for VADAVALLI",
+        "bus facility available for PERUR",
+        "bus facility available for SIVANANDA COLONY",
+        "bus facility available for PERUR",
+        "bus facility available for TIRUPUR",
+        "bus facility available for KANUVAPALAYAM(THEAKKAMPATTI)"
+      ],
+      "responses": [
+        "yes"
+      ]
+    },
+    {
+      "tag": "mtp",
+      "patterns": [
+        "bus route for mettupalayam",
+        "bus route for karamadai",
+        "bus route for sirumugai",
+        "bus route for Alangombu",
+        "bus route for Vellankanni",
+        "bus route for Mathampalayam Pirivu",
+        "bus route for Periyamathampalayam",
+        "bus route for ctc"
+       
+      ],
+      "responses": [
+        "KG Denim\nBank Stop\nTheater Medu\nFour Corner\nAlangombu\nAlangombu Colony\nBangala Medu\nMeenachi\nCTC\nVellankanni\nKuttaiyur\nGandhi Nagar\nTeachers Colony\nMathampalayam\nKaramadai\nKGISL"      
+      ]
+    },
+    {
+      "tag": "SATHYAMANGALAM",
+      "patterns": [
+        "bus route for Sathyamangalam",
+        "bus route for SRT Corner",
+        "bus route for VRT Mill",
+        "bus route for Puliyampatti",
+        "bus route for Sellappampalayam",
+        "bus route for  Annur",
+        "bus route for Kovilpalayam",
+        "bus route for Kariyaampalayam",
+        "bus route for Coffee Kadai"
+       
+      ],
+      "responses": [
+        "Sathyamangalam\nSRT Corner\nPuliyampatti\nFour Corner\nSellappampalayam\nAnnur\nKariyaampalayam\nKovilpalayam\nKGISL"      
+      ]
+    },
+    {
+      "tag": "SINGANALLUR ",
+      "patterns": [
+        "bus route for Chinniampalayam",
+        "bus route for Irugur",
+        "bus route for Ondipudur",
+        "bus route for Singanallur",
+        "bus route for Hopes",
+        "bus route for  Peelamedu",
+        "bus route for Laksmi Mills"
+               
+      ],
+      "responses": [
+        "Chinniampalayam\nIrugur\nOndipudur\nSinganallur\nESI\nHopes\nPeelamedu\nLaksmi-Mills\nKGISL"      
+      ]
+    },
+    {
+      "tag": "VADAVALLI",
+      "patterns": [
+        "bus route for BharathiarUniversity",
+        "bus route for Kavundampalayam",
+        "bus route for Martin",
+        "bus route for Edayarpalayam",
+        "bus route for Venkatapuram"
+                       
+      ],
+      "responses": [
+        "Bharathiar-University\nAlamaram\nVadavalli-School\nPN-Pudur\nVenkatapuram\nEdayarpalayam\nTVS-Nagar\nSaravana-Nagar\nKavundampalayam\nCheran-Colony\nMartin-Apartment\nKGISL"      
+      ]
+    },
+    {
+      "tag": "PERUR",
+      "patterns": [
+        "bus route for Pooluvapatti",
+        "bus route for Kalampalayam",
+        "bus route for Perur",
+        "bus route for Telungupalayam",
+        "bus route for Selvapuram",
+        "bus route for Sukruvarpettai",
+        "bus route for Gandhi Park",
+        "bus route for RS Puram",
+        "bus route for Flower Market",
+        "bus route for North Coimbatore",
+        "bus route for Murugan Mills",
+        "bus route for Saibaba Kovil",
+        "bus route for Thudiyalur"
+                     
+      ],
+      "responses": [
+        "Pooluvapatti\nKalampalayam\nPerur\nTelungupalayam\nLIC-Colony\nSelvapuram\nSukruvarpettai\nGandhi-Park\nRS-Puram\nFlower-Market\nNorth-Coimbatore\nMurugan-Mills\nSaibaba-Kovil\nThudiyalur\nKGISL"      
+      ]
+    },
+    {
+      "tag": "SIVANANDA COLONY",
+      "patterns": [
+        "bus route for Sivananda colony",
+        "bus route for Lakshmipuram",
+        "bus route for Ganapathi",
+        "bus route for SuriyaHospital",
+        "bus route for BharathiNagar",
+        "bus route for AmmanKovil"                     
+      ],
+      "responses": [
+        "Sivananda-colony\nLakshmipuram\nGanapathi\nSuriya-Hospital\nBharathi-Nagar\nAmman-Kovil\nKGISL"      
+      ]
+    },
+    {
+      "tag": "KANUVAPALAYAM",
+      "patterns": [
+        "bus route for BadrakaliammanKovil",
+        "bus route for Theakkampatti ",
+        "bus route for Presscolony",
+        "bus route for VeerapandiPirivu",
+        "bus route for Jothipuram",
+        "bus route for Vannan-kovil", 
+        "bus route for Pricol",
+        "bus route for Periyanaickenpalayam",
+        "bus route for LMW",
+        "bus route for Narasimanaickenpalayam",
+        "bus route for RakkipalyamPirivu",
+        "bus route for NGGO-Colony",
+        "bus route for Vadamadurai"
+                          
+      ],
+      "responses": [
+        "Badrakaliamman-Kovil\nKanuvapalyam\nKaramadai\nPress-colony\nVeerapandi-Pirivu\nJothipuram\nVannan-kovil\nPricol\nPn-palayam\nLMW\nNSN-Palayam\nRakkipalyam\nNGGO-Colony\nVadamadurai\nKGISL"      
+      ]
+    },
+    {
+      "tag": "KANUVAPALAYAM",
+      "patterns": [
+        "bus route for Kanakkampalayam",
+        "bus route for KANUVAPALAYAM",
+        "bus route for Shanthi-Theater ",
+        "bus route for Nataraj-Theater",
+        "bus route for Kumar-Nagar",
+        "bus route for Anupparpalayam",
+        "bus route for Ammapalayam", 
+        "bus route for Poondi",
+        "bus route for Avinashi",
+        "bus route for Attaiyampalayam",
+        "bus route for Karuvalur"
+                       
+      ],
+      "responses": [
+        "Kanakkampalayam\nAnna-Nagar\nShanthi-Theater\nNataraj-Theater\nRailway-Station\nAnupparpalayam\nAmmapalayam\nPoondi\nAvinashi\nAttaiyampalayam\nKaruvalur\nKGISL"      
+      ]
+    }
+
+  ]
+}

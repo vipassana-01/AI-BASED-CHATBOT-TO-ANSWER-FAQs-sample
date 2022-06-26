@@ -1,0 +1,25 @@
+REQUIREMENTS:
+1] Browser with compatible version(Firefox,Chrome)
+2] Application : Visual studio
+3] Need dual core processor with 8GB RAM specified system
+4] Operating System : Windows
+5] Python latest version
+
+REQUIRED LIBRARIES:
+
+random
+json
+torch
+numpy
+nltk
+flask
+
+INSTRUCTION TO PLAY THE SOURCE CODE:
+
+STEP 1: Open visual studio code.
+STEP 2: Open the folder with the source code in the visual studio code. File -> Open folder -> Final code..
+STEP 3: Install the required libraries with the help of terminal in the visual studio code.
+STEP 4: after installing the required libraries, first type the command "python train.py" and run it.
+STEP 5: After executing "train.py", Run "python app.py" command.
+STEP 6: After executing both the command Localhost link can be found in the terminal, By clicking it, it'll redirect to the webpage.
+STEP 7: In the webpage the user need to type in his/her credentials and login, after logging in the user can Access the Chatbot on the Right bottom of the Webpage..

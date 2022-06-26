@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+    <script>
+        console.log("asd")
+    </script>
+</head>
+<body>
+    <nav>
+        <div id="main">
+            <div class="navbar">
+                <a><img src="{{ url_for('static', filename='images/kglogo.png') }}" id="logo"></a>
+                <a href="#">HOME</a>
+                <a href="https://www.kgkite.ac.in/academics/">ACADEMICS</a>
+                <a href="https://www.kgkite.ac.in/admission/">ADMISSION</a>
+                <a href="https://www.kgkite.ac.in/placements/about-the-training-and-placement/">PLACEMENT</a>
+                <a href="https://ecampus.kgisliim.ac.in/ecampus/">ECAMPUS</a>
+                <a href="https://www.kgkite.ac.in/about-us/ ">ABOUT US</a>
+            </div>
+            <div id="banner">
+                <img src="{{ url_for('static', filename='images/banner.jpg') }}">
+            </div>
+            <div id="content1">
+                <h4 class="heading">Smart India Hackathon</h4>
+                <p class="para1" text-align="justify">SIH 2022 brings the next generation evolution by inclusion of new methodology to
+                    inculcate the culture of startup and innovation ecosystem across different age groups
+                </p><br><br>
+                <a href="https://www.sih.gov.in/" class="more">READ MORE</a>
+            </div>
+            <div id="content2">
+                <h4 class="heading">Six Days International Tech Talk Series</h4>
+                <p class="para1" text-align="justify">The Department of Computer Science and Engineering and Artificial Intelligence &
+                Data Science is organizing Six Days International Tech Talk Series </p><br><br>
+                <a href="https://www.kgkite.ac.in/news-and-event/six-days-international-tech-talk-series/" class="more">READ
+                MORE</a>
+            </div>
+            <div id="content3">
+                <h4 class="heading">CSE & AI departments partner with NoviTech</h4>
+                <p class="para1" text-align="justify">The CSE and AI & DataScience Departments of KGiSL Institute of Technology are
+                    excited to partner with NoviTech.</p><br><br>
+                <a href="https://www.kgkite.ac.in/news-and-event/cse-ai-departments-partners-up-with-novitech/" class="more">READ
+                    MORE</a>
+            </div>
+            <div class="f-social">
+                <a href="https://www.facebook.com/KiTETechCollege/" target="_blank"><img
+                    src="https://www.kgkite.ac.in/wp-content/themes/kgkite/images/fb.png" alt=""></a>
+                <a href="https://www.instagram.com/kitetechcollege/" target="_blank"><img
+                    src="https://www.kgkite.ac.in/wp-content/themes/kgkite/images/ins.png" alt=""></a>
+                <a href="https://www.linkedin.com/school/kitetechcollege" target="_blank"><img
+                    src="https://www.kgkite.ac.in/wp-content/themes/kgkite/images/ind.png" alt=""></a>
+                <a href="https://twitter.com/kitetechcollege" target="_blank"><img
+                    src="https://www.kgkite.ac.in/wp-content/themes/kgkite/images/tw.png" alt=""></a>
+                <a href="https://www.youtube.com/channel/UCczir5Jdm_dLltT_jSXGhgw" target="_blank"><img
+                    src="https://www.kgkite.ac.in/wp-content/themes/kgkite/images/youtube.png" alt=""></a>
+            </div>
+        </div>
+    </nav>
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chat support</h4>
+                    <p class="chatbox__description--header">Hi. My name is Sam. How can I help you?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+        </div>
+    </div>
+</div>
+
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>
